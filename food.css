@@ -1,0 +1,375 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+}
+h1,h2,h3,h4,p{
+	margin: 0;
+}
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+a{
+	cursor:pointer;
+}
+html{
+  background: url("background.jpg") no-repeat center center fixed; 
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+background-size: 100% 100%
+}
+#header-background{
+	background-image: url("restaurant-two.jpg");
+	height: 84vh;
+	width: 89vw;
+	margin: 5% auto 0 auto ;
+	background-size: cover;
+	background-size: 100% 100%
+}
+header h3{
+	float: left;
+    margin: 21px 0 0 45px;
+	font-family: Brush Script MT, cursive;
+	font-size: 42px;
+	color: white;
+}
+nav{
+	float: right;
+	display: inline-block;
+	position: relative;
+	right: 5%;
+	top:1.5%;
+}
+nav ul{
+	list-style-type: none;
+}
+nav li{
+	float: left;
+	text-decoration: none;
+    margin: 0 27px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+nav li:before{
+	padding-right:10px;
+}
+#header-middle{
+	width: 50%;
+	margin:200px auto 0 auto;
+	text-align: center;
+}
+.rise h1{
+	font-size: 4.3vw;
+	color: white;
+	margin:0;
+	letter-spacing: 4px;
+
+
+}
+.rise h2{
+	font-size: 5vw;
+	color: white;
+	margin: 0;
+}
+.rise{
+	position: relative;
+	animation-name: rise;
+	animation-duration: 1.5s;
+}
+@keyframes rise{
+	0% {bottom: -500px; opacity:-3;}
+	100%{ bottom: 0px; opacity: 1; }
+}
+.rise2{
+	position: relative;
+	animation-name: rise2;
+	animation-duration: 2s;
+}
+@keyframes rise2{
+	0% {bottom:-500;opacity:-8;}
+	100%{bottom:0px; opacity:1;}
+}
+/*Inner Content*/
+.middle-div{
+	height: 54.5vh;
+	width: 89vw;
+    margin: 0 auto ;
+	background-color: WhiteSmoke;
+}
+#RA-wrapper{
+	width: 100%;
+}
+.inner-content-wrapper{
+	width: 51%;
+	margin: 0 auto;
+	position: relative;
+	bottom: 26px
+}
+.inner-content{
+	width: 15vw;
+	float: left;
+	display: block;
+	text-align: center;
+	height: 32vh;
+	background-color: white;
+}
+.content-img{
+ max-width: 100%;
+ max-height:100%;
+ display: block;
+ width: 50vw;
+ height: 32vh;
+ background: url("reservation.jpg")  ;
+background-size:100% 100%;
+}
+.inner-content2{
+	width: 45.4vw;
+    height: 30vh;
+    display: block;
+	background-color: white;
+	text-align: center;
+}
+.inner-content h2,.inner-content2 h2{
+	  font-family: Brush Script MT, cursive;
+	  font-size: 2em;
+}
+.inner-content p,.inner-content2 p{
+	font-size: 1em;
+}
+.content-img2{
+   	width: 15vw;
+	float: left;
+	display: block;
+	height: 30vh;
+	background: url("about.jpg");
+	background-size: 100% 100%;
+}
+.inner-content a{
+	border:2px solid gold;
+	padding: 6px;
+	color: black;
+}
+/* Our  Specialitie Div*/
+.separator{
+	width: 89vw;
+	height: 70vh;
+	margin: 0 auto;
+	  background: url("seperator-img.jpg") no-repeat  fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+background-size: 100% 100%
+}
+#special-wrapper{
+	width: 50%;
+	margin: 0 auto;
+}
+.Specials h1{
+	padding-top: 80px;
+	width: 50%;
+	margin: 0 auto;
+	font-family: Brush Script MT, cursive;
+	font-size: 3vw;
+    text-align: center;
+}
+/**************Specials*******************/
+.specials-box{
+	background-color: red;
+	width: 25%;
+	height: 30vh;
+	float: left;
+	text-align: center;
+	background-size: 100% 100%;
+}
+.specials-box h3{
+	padding: 1% 0 1% 0;
+	font-size:30px;
+	font-family: Brush Script MT, cursive;
+
+}
+.specials-box p{
+	padding-bottom: 5px;
+	font-size: 13.5px;
+	width: 100%;
+	margin: 0 auto;
+}
+.specials-box h4{
+	padding-top:20px;
+
+}
+.specials-box:nth-child(2){
+	background-image: url("tamales.jpg");
+}
+.specials-box:nth-child(5){
+	background-image: url("chiles.jpeg");
+}
+.specials-box:nth-child(7){
+	background-image: url("tostada.jpg")
+}
+.specials-box:nth-child(4){
+	background-image: url("taco.jpeg");
+}
+/******* Seperator two*******/
+.separator-two{
+width: 89vw;
+	height: 70vh;
+	margin: 0 auto;
+    background: url("blank.jpg") no-repeat  fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+background-size: 100% 100%
+}
+/******* Menu*******/
+#menu-wrapper{
+	width: 89vw;
+	height:auto;
+	margin:0  auto 10vh auto;
+	background-color: white;
+	background-image: url("menu.jpg");
+        background-size: 100% 100%;
+        padding:6% 0;
+}
+.inner-menu-wrapper{
+	width: 85%;
+	margin: 0 auto;
+	text-align: center;
+}
+.menu-title{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 5vh;
+	padding-bottom: 20px;
+	font-family: Brush Script MT, cursive;
+}
+.menu-title h3{
+ font-size: 3em;
+ color: #ADADAD	;
+}
+.menu-title h1{
+	padding-bottom: 18px;
+	font-size:3em;
+}
+.food-menu{
+	width: 50%;
+	margin: 0 auto;
+	float: left;
+	padding-bottom: 1%;
+}
+.food-menu h4,.food-menu h5{
+	display: inline-block;
+	margin: 0;
+}
+.food-menu h4{
+	width: 75%;
+	color: greenyellow;
+	font-size:1.2em
+}
+.food-menu h5{
+	color: black;
+	font-size: 2.5vw;
+}
+#desert-menu{
+	width: 80%;
+	margin: 0 auto;
+	padding:5vh auto;
+	color: #ADADAD;
+	text-align: center;
+}
+#desert-menu h3{
+	font-family: Brush Script MT, cursive;
+	font-size: 3em;
+	padding-bottom: 20px;
+}
+/************** Media Query********/
+@media screen and (max-width: 1200px){
+      .inner-content2 p,.inner-content p{
+      	font-size: .9em;
+      }
+      .Specials h1{font-size:3em; color:white;}
+      .specials-box p{
+      	font-size: 13px;
+      }
+      .specials-box p{font-size: 11.5px;}
+      .rise h2{font-size:4em;}
+      .rise h1{font-size:2.8em;}
+}
+
+@media screen and (max-width:1024px){
+	.specials-box:nth-child(4),.specials-box:last-child{
+		display: none;}
+	.specials-box{
+		width: 33%;
+	}
+	.inner-content a{
+		padding:5.5px 1.5px;
+	}
+	.content-img2,.inner-content{
+		width: 16vw;
+	}
+	.rise h2{font-size:3em;}
+      .rise h1{font-size:2.4em;}
+      .food-menu h4{font-size:1em;}
+      .food-menu h2{font-size:1.4em;}
+    }
+    @media screen and (max-width:925px){
+    	nav{display: none;}
+    	header-background{text-align: center;}
+    	header h3{width: 100%; text-align: center;margin:0;}
+    	.rise h2,.rise h1{ font-size: 3em; }
+    	#header-middle{width: 75%;}
+    	.inner-content h2,.inner-content2 h2{
+	  font-family: Brush Script MT, cursive;
+	  font-size: 1.7em;
+}
+.inner-content p,.inner-content2 p{
+	font-size: .85em;
+}
+    }
+@media screen and (max-width:768px) {
+
+	.specials-box:nth-child(3),.specials-box:nth-child(7){
+		display: none;}
+        .specials-box{ width: 50%; }
+        .Specials h1{font-size:2.5em;}
+        .content-img2,.content-img{display: none;}
+        .inner-content{ width: 45.4vw; float: none;}
+        .food-menu:nth-child(6), .food-menu:nth-child(4),
+        .food-menu:nth-child(9),.food-menu:last-child{display: none;}
+        #menu-wrapper{background-image: url("menu-small.jpg");}
+       .food-menu h4{font-size:.8em;}
+       .food-menu h2{font-size:1em;color:gold;}
+       .food-menu h5{font-size:2em;display:list-item;list-style:none}
+      .rise h2{font-size:2.5em;}
+      .rise h1{font-size:1.8em;}
+      .specials-box h3{font-size:1.7em;}
+      #desert-menu h3,.menu-title h3{font-size:1.5em;}
+}
+@media screen and (max-width: 480px) {
+         		.middle-div2,.separator{display: none;}
+         		.food-menu:nth-child(2), .food-menu:nth-child(3){display: none;}
+                .inner-content2 p{ font-size: .55em; }
+                .inner-content h2,.inner-content2 h2{font-size: 7.5vw}
+	   .food-menu h4{font-size:.7em;}
+}
+@media screen and (max-width: 320px) {
+                .inner-content2 p{ font-size: .5em; }
+
+
+}
